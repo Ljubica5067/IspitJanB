@@ -1,0 +1,28 @@
+
+<div>
+    <form [formGroup]="forma" (ngSubmit)="submit()">
+        <label for="id">ID: </label>
+        <input type="number" name="id" formControlName="id">
+        <label for="title">Title: </label>
+        <input type="text" name="title" formControlName="title">
+        <label for="description">Description: </label>
+        <input type="text" name="description" formControlName="description">
+        <label for="price">Price: </label>
+        <input type="number" name="price" formControlName="price">
+        <label for="discountPercentage">DiscountPercentage: </label>
+        <input type="number" name="discountPercentage" formControlName="discountPercentage">
+        <label for="rating">Rating: </label>
+        <input type="number" name="rating" formControlName="rating">
+        <label for="stock">Stock: </label>
+        <input type="number" name="stock" formControlName="stock">
+        <label for="brand">Brand: </label>
+        <input type="text" name="brand" formControlName="brand">
+        <label for="category">Category: </label>
+        <input type="text" name="category" formControlName="category">
+        <label for="thumbnail">Thumbnail: </label>
+        <input type="text" name="thumbnail" formControlName="thumbnail">
+        <label for="images">Images: </label>
+        <input type="text" name="images" formControlName="images">
+        <button type="submit">Unesi</button>
+    </form>
+</div>
